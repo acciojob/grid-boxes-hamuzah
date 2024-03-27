@@ -1,1 +1,90 @@
 /*  your css code here. If applicable */
+#grid{
+  display: grid;
+  gap: 5px;
+  background-color:white;
+	color:white;
+}
+
+.item1 {
+	background-color:green;
+  text-align:left;
+  padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 1;
+  grid-column-end: 9;
+}
+.item2 {
+	background-color:green;
+  text-align:left;
+ padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 1;
+  grid-column-end: 3;
+	grid-row-start:2;
+	grid-row-end:6;
+}
+.item3 {
+	background-color:green;
+  text-align:left;
+  padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 3;
+  grid-column-end:5 ;
+}
+.item4 {
+	background-color:green;
+  text-align:left;
+ padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+.item5{
+	background-color:green;
+  text-align:left;
+padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 3;
+  grid-column-end: 7;
+}
+.item6{
+	background-color:green;
+  text-align:;
+  padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+.item7 {
+	background-color:green;
+  text-align:left;
+ padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+.item8 {
+	background-color:green;
+  text-align:left;
+ padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 5;
+  grid-column-end: 7;
+}
+.item9 {
+	background-color:green;
+  text-align:left;
+ padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 7;
+  grid-column-end: 9;
+}
+.item10 {
+	background-color:green;
+  text-align:left;
+ padding: 0px 0px 50px 0px;
+  font-size: 30px;
+  grid-column-start: 3;
+  grid-column-end: 9;
+}
