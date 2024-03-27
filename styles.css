@@ -1,90 +1,40 @@
 /*  your css code here. If applicable */
 #grid{
-  display: grid;
-  gap: 5px;
-  background-color:white;
+	display:grid;
+	grid-template-columns:repeat(4,242.5px);
+	grid-template-rows:repeat(5,124px);
+	grid-gap:10px;.
+	
+}
+#grid>div{
+	font-size:30px;
 	color:white;
 }
-
-.item1 {
+#item1{
+	grid-column:span 4;
 	background-color:green;
-  text-align:left;
-
-  font-size: 30px;
-  grid-column-start: 1;
-  grid-column-end: 9;
 }
-.item2 {
+#item2{
+	grid-row:span 4;
 	background-color:green;
-  text-align:left;
-
-  font-size: 30px;
-  grid-column-start: 1;
-  grid-column-end: 3;
-	grid-row-start:2;
-	grid-row-end:6;
 }
-.item3 {
+#item3{
+	
 	background-color:green;
-  text-align:left;
-
-  font-size: 30px;
-  grid-column-start: 3;
-  grid-column-end:5 ;
 }
-.item4 {
+#item4{
+	grid-column:span 2;
 	background-color:green;
-  text-align:left;
- padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 5;
-  grid-column-end: 9;
 }
-.item5{
+#item5{
+	grid-column:span 2;
 	background-color:green;
-  text-align:left;
-padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 3;
-  grid-column-end: 7;
 }
-.item6{
+#item6,#item7,#item8,#item9{
+	
 	background-color:green;
-  text-align:;
-  padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 7;
-  grid-column-end: 9;
 }
-.item7 {
+#item10{
+	grid-column:span 3;
 	background-color:green;
-  text-align:left;
- padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 3;
-  grid-column-end: 5;
-}
-.item8 {
-	background-color:green;
-  text-align:left;
- padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 5;
-  grid-column-end: 7;
-}
-.item9 {
-	background-color:green;
-  text-align:left;
- padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 7;
-  grid-column-end: 9;
-}
-.item10 {
-	background-color:green;
-  text-align:left;
- padding: 0px 0px 50px 0px;
-  font-size: 30px;
-  grid-column-start: 3;
-  grid-column-end: 9;
 }
